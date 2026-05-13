@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "registerSurveyor": "Register as Surveyor",
+    "home": "Home"
+  },
+  "hero": {
+    "headline": "Find Verified Land Surveyors Near You",
+    "subtext": "Connect directly with licensed surveyors across India. Free for customers, no middlemen.",
+    "searchPlaceholder": "Enter district or city...",
+    "searchButton": "Search Surveyors",
+    "popularDistricts": "Popular districts:"
+  },
+  "stats": {
+    "surveyors": "Verified Surveyors",
+    "districts": "Districts Covered",
+    "free": "Free for Customers"
+  },
+  "featured": {
+    "title": "Featured Surveyors"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "step1Title": "Search Your District",
+    "step1Desc": "Enter your district to see all verified surveyors in your area.",
+    "step2Title": "Compare Profiles",
+    "step2Desc": "Review experience, equipment, and license details side by side.",
+    "step3Title": "Contact Directly",
+    "step3Desc": "Call or WhatsApp the surveyor directly — no platform fees, ever."
+  },
+  "cta": {
+    "surveyorTitle": "Are you a land surveyor?",
+    "surveyorSubtext": "List your profile for free and start receiving inquiries from customers across India.",
+    "surveyorButton": "List Free — Register Now"
+  },
+  "footer": {
+    "tagline": "Connecting customers with verified land surveyors across India.",
+    "about": "About",
+    "contact": "Contact",
+    "register": "Register as Surveyor",
+    "rights": "All rights reserved."
+  },
+  "search": {
+    "resultsCount": "{count} surveyor(s) found in",
+    "noResults": "No surveyors found in {district}. Try a nearby district.",
+    "filters": "Filters",
+    "equipment": "Equipment",
+    "experience": "Experience",
+    "district": "District",
+    "sortBy": "Sort by",
+    "sortExperience": "Most Experienced",
+    "sortNewest": "Newest Listed",
+    "sortName": "Name A–Z",
+    "loadMore": "Load More",
+    "activeFilters": "Active Filters",
+    "clearAll": "Clear All"
+  },
+  "card": {
+    "verified": "Verified",
+    "yearsExp": "yrs experience",
+    "alsoServes": "Also serves:",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "whatsappMessage": "Hi, I found you on BookSurveyor.co and need a land survey in {district}"
+  },
+  "register": {
+    "title": "Register as a Surveyor",
+    "step1": "Personal Details",
+    "step2": "Professional Details",
+    "step3": "Documents",
+    "fullName": "Full Name",
+    "phone": "Phone Number",
+    "whatsapp": "WhatsApp Number",
+    "sameAsPhone": "Same as phone number",
+    "profilePhoto": "Profile Photo (optional)",
+    "licenseNumber": "License / Certificate Number",
+    "yearsExp": "Years of Experience",
+    "equipment": "Equipment Owned",
+    "districts": "Districts Served (max 5)",
+    "bio": "About / Bio (optional)",
+    "bioPlaceholder": "Tell customers about your experience, specializations, and service areas... (max 300 chars)",
+    "licenseDoc": "License / Certificate Document",
+    "declaration": "I confirm that all details submitted are accurate and I am a licensed land surveyor.",
+    "submit": "Submit for Review",
+    "next": "Next",
+    "back": "Back",
+    "successTitle": "Profile Submitted!",
+    "successMessage": "Your profile has been submitted for review. We will verify your license and activate your listing within 24 hours.",
+    "uploadPhoto": "Upload Photo",
+    "uploadDoc": "Upload Document",
+    "dragOrClick": "Drag & drop or click to upload",
+    "photoFormats": "JPG, PNG up to 2MB",
+    "docFormats": "JPG, PNG, PDF up to 5MB"
+  },
+  "dashboard": {
+    "title": "Your Dashboard",
+    "editProfile": "Edit Profile",
+    "viewProfile": "View Public Profile",
+    "availability": "Available for new work",
+    "notAvailable": "Not available",
+    "deleteAccount": "Delete Account",
+    "deleteConfirm": "Are you sure? This cannot be undone.",
+    "saveChanges": "Save Changes",
+    "loginTitle": "Surveyor Login",
+    "loginSubtext": "Enter your registered phone number to receive an OTP.",
+    "phoneLabel": "Phone Number",
+    "sendOtp": "Send OTP",
+    "otpLabel": "Enter OTP",
+    "verifyOtp": "Verify & Login",
+    "pendingBanner": "Your profile is under review. You'll appear in search once approved."
+  },
+  "errors": {
+    "required": "This field is required",
+    "phoneInvalid": "Enter a valid 10-digit phone number",
+    "maxDistricts": "You can select up to 5 districts",
+    "fileTooLarge": "File size exceeds the limit",
+    "fileTypeInvalid": "Invalid file type",
+    "genericError": "Something went wrong. Please try again."
+  }
+}
