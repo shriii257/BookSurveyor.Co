@@ -8,7 +8,7 @@ import { Avatar } from './Avatar';
 export function whatsappLink(surveyor: Surveyor, district?: string) {
   const searchedDistrict = district || surveyor.districts_served[0] || 'your area';
   const message = encodeURIComponent(
-    `Hi, I found you on BookSurveyor.co and need a land survey in ${searchedDistrict}`,
+    `Hi, I found you on Booksurveyor.co and need a land survey in ${searchedDistrict}`,
   );
   return `https://wa.me/${surveyor.whatsapp}?text=${message}`;
 }
@@ -35,7 +35,9 @@ export function SurveyorCard({
               <Link href={`/surveyor/${surveyor.id}?lang=${locale}&district=${encodeURIComponent(primaryDistrict)}`}>
                 <h3 className="text-xl font-bold text-text-primary hover:text-primary-dark">{surveyor.full_name}</h3>
               </Link>
-              <p className="mt-1 text-sm text-text-secondary">Lic. {surveyor.license_number}</p>
+              {surveyor.license_number && (
+                <p className="mt-1 text-sm text-text-secondary">Lic. {surveyor.license_number}</p>
+              )}
             </div>
             {surveyor.admin_approved && <VerifiedBadge />}
           </div>
