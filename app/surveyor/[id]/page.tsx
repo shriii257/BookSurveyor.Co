@@ -34,7 +34,7 @@ export default async function SurveyorProfilePage({
                 <h1 className="text-4xl font-extrabold">{surveyor.full_name}</h1>
                 <VerifiedBadge />
               </div>
-              <p className="mt-3 text-lg font-bold text-primary-dark">Lic. {surveyor.license_number}</p>
+              {surveyor.license_number && <p className="mt-3 text-lg font-bold text-primary-dark">Lic. {surveyor.license_number}</p>}
               <p className="mt-2 text-text-secondary">{surveyor.years_experience} years of experience</p>
               {surveyor.bio && <p className="mt-5 max-w-3xl leading-7 text-text-secondary">{surveyor.bio}</p>}
               <div className="mt-5">
@@ -69,7 +69,7 @@ export default async function SurveyorProfilePage({
             </p>
           </div>
         </div>
-        <p className="mt-5 text-center text-sm text-text-secondary">Listed on BookSurveyor.co</p>
+        <p className="mt-5 text-center text-sm text-text-secondary">Listed on Booksurveyor.co</p>
       </section>
     </main>
   );
