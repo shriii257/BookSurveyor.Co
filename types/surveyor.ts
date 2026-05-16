@@ -5,12 +5,14 @@ export interface Surveyor {
   phone: string;
   whatsapp: string;
   profile_photo_url: string | null;
-  license_number: string;
+  license_number: string | null;
+  gst_number: string | null;
   years_experience: number;
   equipment: string[];
   districts_served: string[];
   bio: string | null;
   license_doc_url: string | null;
+  gst_doc_url: string | null;
   admin_approved: boolean;
   available: boolean;
   status: 'pending' | 'approved' | 'rejected';
@@ -23,12 +25,14 @@ export interface SurveyorInput {
   phone: string;
   whatsapp: string;
   profile_photo_url?: string | null;
-  license_number: string;
+  license_number?: string | null;
+  gst_number?: string | null;
   years_experience: number;
   equipment: string[];
   districts_served: string[];
   bio?: string | null;
   license_doc_url?: string | null;
+  gst_doc_url?: string | null;
 }
 
 export interface SearchFilters {
@@ -56,7 +60,7 @@ export const EXPERIENCE_RANGES = [
 ] as const;
 
 export const MAHARASHTRA_DISTRICTS = [
-  'Ahmednagar', 'Akola', 'Amravati', 'Aurangabad', 'Beed', 'Bhandara',
+  'Ahmednagar', 'Akola', 'Amravati', 'Chhatrapati Sambhajinagar', 'Beed', 'Bhandara',
   'Buldhana', 'Chandrapur', 'Dhule', 'Gadchiroli', 'Gondia', 'Hingoli',
   'Jalgaon', 'Jalna', 'Kolhapur', 'Latur', 'Mumbai', 'Mumbai Suburban',
   'Nagpur', 'Nanded', 'Nandurbar', 'Nashik', 'Osmanabad', 'Palghar',
@@ -94,11 +98,13 @@ export const DEMO_SURVEYORS: Surveyor[] = [
     whatsapp: '919820000101',
     profile_photo_url: null,
     license_number: 'MH-2847',
+    gst_number: null,
     years_experience: 12,
     equipment: ['Total Station', 'GPS/GNSS', 'Drone'],
     districts_served: ['Pune', 'Nashik', 'Satara'],
     bio: 'Licensed land surveyor for farm boundaries, layouts, and construction marking.',
     license_doc_url: null,
+    gst_doc_url: null,
     admin_approved: true,
     available: true,
     status: 'approved',
@@ -111,11 +117,13 @@ export const DEMO_SURVEYORS: Surveyor[] = [
     whatsapp: '919820000202',
     profile_photo_url: null,
     license_number: 'MH-3011',
+    gst_number: null,
     years_experience: 8,
     equipment: ['Total Station', 'Auto Level', 'Theodolite'],
     districts_served: ['Mumbai', 'Thane', 'Raigad'],
     bio: 'Urban plot survey, elevation work, and municipal documentation support.',
     license_doc_url: null,
+    gst_doc_url: null,
     admin_approved: true,
     available: true,
     status: 'approved',
@@ -128,11 +136,13 @@ export const DEMO_SURVEYORS: Surveyor[] = [
     whatsapp: '919820000303',
     profile_photo_url: null,
     license_number: 'MH-3320',
+    gst_number: null,
     years_experience: 16,
     equipment: ['GPS/GNSS', 'Drone', 'Plane Table'],
-    districts_served: ['Nagpur', 'Aurangabad', 'Amravati'],
+    districts_served: ['Nagpur', 'Chhatrapati Sambhajinagar', 'Amravati'],
     bio: 'Large agricultural parcels, road alignments, and village map surveys.',
     license_doc_url: null,
+    gst_doc_url: null,
     admin_approved: true,
     available: true,
     status: 'approved',
