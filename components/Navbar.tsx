@@ -16,7 +16,7 @@ export function Navbar({ locale, messages }: { locale: Locale; messages: NavbarM
     <header className="sticky top-0 z-30 border-b border-border bg-white/95 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
         <Link href={`/${lang}`} className="text-lg font-extrabold text-primary-dark sm:text-xl">
-          bookSurveyor.co
+          Booksurveyor.co
         </Link>
         <nav className="flex items-center gap-2 sm:gap-4">
           <Link href={`/${lang}`} className="hidden text-sm font-semibold text-text-secondary hover:text-text-primary sm:inline">
