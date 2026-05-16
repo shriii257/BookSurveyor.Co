@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'BookSurveyor.co',
+  title: 'Booksurveyor.co',
   description: 'Find verified land surveyors near you across India.',
 };
 
