@@ -58,7 +58,7 @@
     "alsoServes": "यह भी सेवा करते हैं:",
     "call": "कॉल करें",
     "whatsapp": "व्हाट्सएप",
-    "whatsappMessage": "नमस्ते, मुझे BookSurveyor.co पर आपका प्रोफाइल मिला और {district} में भूमि सर्वे की आवश्यकता है"
+    "whatsappMessage": "नमस्ते, मुझे Booksurveyor.co पर आपका प्रोफाइल मिला और {district} में भूमि सर्वे की आवश्यकता है"
   },
   "register": {
     "title": "सर्वेयर के रूप में पंजीकरण करें",
