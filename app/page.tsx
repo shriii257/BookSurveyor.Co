@@ -13,7 +13,7 @@ export default async function HomePage({
   const locale = getLocaleFromValue(searchParams.lang);
   const messages = getMessages(locale);
   const { data: featuredSurveyors } = await searchSurveyors({ district: 'Pune', sort: 'experience', page: 1 });
-  const popularDistricts = ['Pune', 'Nashik', 'Aurangabad', 'Nagpur', 'Mumbai'];
+  const popularDistricts = ['Pune', 'Nashik', 'Chhatrapati Sambhajinagar', 'Nagpur', 'Mumbai'];
 
   return (
     <main>
