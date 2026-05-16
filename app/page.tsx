@@ -107,7 +107,7 @@ export default async function HomePage({
       </section>
 
       <footer className="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-8 text-sm text-text-secondary sm:flex-row sm:items-center sm:justify-between sm:px-6">
-        <strong className="text-text-primary">Booksurveyor.co.co.co</strong>
+        <strong className="text-text-primary">Booksurveyor.co</strong>
         <div className="flex gap-4">
           <Link href={`/?lang=${locale}`}>{messages.footer.about}</Link>
           <Link href={`/?lang=${locale}`}>{messages.footer.contact}</Link>
