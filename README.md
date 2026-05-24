@@ -28,4 +28,4 @@ ADMIN_PASSWORD=
 ADMIN_WHATSAPP=91XXXXXXXXXX
 ```
 
-The app builds without credentials, but registration, dashboard OTP, uploads, and admin actions require Supabase credentials.
+
