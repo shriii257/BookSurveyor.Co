@@ -15,9 +15,7 @@ A full-stack Next.js marketplace for connecting customers with verified land sur
 npm install
 npm run dev
 ```
-
-## Vercel
-
+vercel Configurations
 Add these environment variables in Vercel before deploying:
 
 ```env
